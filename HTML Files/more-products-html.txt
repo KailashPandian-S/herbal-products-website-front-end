@@ -1,0 +1,159 @@
+ <div class="more-products-bg">
+        <div class="container">
+
+            <div class="row pt-3">
+                <div class="col-12">
+                    <h1 class="home-products-heading home-products-heading-2 mb-3">More Products</h1>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mb-3">
+                    <div class=" product-card-container shadow-lg">
+                        <div class="text-center">
+                            <img src="https://img.freepik.com/free-photo/top-view-lovely-arrangement-plants-with-properties_23-2148799475.jpg?t=st=1720806315~exp=1720809915~hmac=35d5a2f9d15657caabc281eaf07f7a39bf731a2fa4d48fe86fce45fe9b546725&w=360" class="image-product-card mt-3 mb-2" />
+                        </div>
+                        <div class="product-card-text-container text-center mb-3">
+                            <p class="product-card-product-name">Herbal soap 1</p>
+                            <p class="product-card-price-1"> <span class="product-card-price-2 mr-1">Rs.70</span> Rs.50</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mb-3">
+                    <div class=" product-card-container shadow-lg">
+                        <div class="text-center">
+                            <img src="https://img.freepik.com/free-photo/top-view-lovely-arrangement-plants-with-properties_23-2148799475.jpg?t=st=1720806315~exp=1720809915~hmac=35d5a2f9d15657caabc281eaf07f7a39bf731a2fa4d48fe86fce45fe9b546725&w=360" class="image-product-card mt-3 mb-2" />
+                        </div>
+                        <div class="product-card-text-container text-center mb-3">
+                            <p class="product-card-product-name">Herbal soap 1</p>
+                            <p class="product-card-price-1"> <span class="product-card-price-2 mr-1">Rs.70</span> Rs.50</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mb-3">
+                    <div class=" product-card-container shadow-lg">
+                        <div class="text-center">
+                            <img src="https://img.freepik.com/free-photo/top-view-lovely-arrangement-plants-with-properties_23-2148799475.jpg?t=st=1720806315~exp=1720809915~hmac=35d5a2f9d15657caabc281eaf07f7a39bf731a2fa4d48fe86fce45fe9b546725&w=360" class="image-product-card mt-3 mb-2" />
+                        </div>
+                        <div class="product-card-text-container text-center mb-3">
+                            <p class="product-card-product-name">Herbal soap 1</p>
+                            <p class="product-card-price-1"> <span class="product-card-price-2 mr-1">Rs.70</span> Rs.50</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mb-3">
+                    <div class=" product-card-container shadow-lg">
+                        <div class="text-center">
+                            <img src="https://img.freepik.com/free-photo/top-view-lovely-arrangement-plants-with-properties_23-2148799475.jpg?t=st=1720806315~exp=1720809915~hmac=35d5a2f9d15657caabc281eaf07f7a39bf731a2fa4d48fe86fce45fe9b546725&w=360" class="image-product-card mt-3 mb-2" />
+                        </div>
+                        <div class="product-card-text-container text-center mb-3">
+                            <p class="product-card-product-name">Herbal soap 1</p>
+                            <p class="product-card-price-1"> <span class="product-card-price-2 mr-1">Rs.70</span> Rs.50</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mb-3 d-none d-lg-block">
+                    <div class=" product-card-container shadow-lg">
+                        <div class="text-center">
+                            <img src="https://img.freepik.com/free-photo/top-view-lovely-arrangement-plants-with-properties_23-2148799475.jpg?t=st=1720806315~exp=1720809915~hmac=35d5a2f9d15657caabc281eaf07f7a39bf731a2fa4d48fe86fce45fe9b546725&w=360" class="image-product-card mt-3 mb-2" />
+                        </div>
+                        <div class="product-card-text-container text-center mb-3">
+                            <p class="product-card-product-name">Herbal soap 2</p>
+                            <p class="product-card-price-1"> <span class="product-card-price-2 mr-1">Rs.67</span> Rs.48</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mb-3 d-none d-lg-block">
+                    <div class=" product-card-container shadow-lg">
+                        <div class="text-center">
+                            <img src="https://img.freepik.com/free-photo/top-view-lovely-arrangement-plants-with-properties_23-2148799475.jpg?t=st=1720806315~exp=1720809915~hmac=35d5a2f9d15657caabc281eaf07f7a39bf731a2fa4d48fe86fce45fe9b546725&w=360" class="image-product-card mt-3 mb-2" />
+                        </div>
+                        <div class="product-card-text-container text-center mb-3">
+                            <p class="product-card-product-name">Herbal soap 2</p>
+                            <p class="product-card-price-1"> <span class="product-card-price-2 mr-1">Rs.67</span> Rs.48</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mb-3 d-none d-md-block">
+                    <div class=" product-card-container shadow-lg">
+                        <div class="text-center">
+                            <img src="https://img.freepik.com/free-photo/top-view-lovely-arrangement-plants-with-properties_23-2148799475.jpg?t=st=1720806315~exp=1720809915~hmac=35d5a2f9d15657caabc281eaf07f7a39bf731a2fa4d48fe86fce45fe9b546725&w=360" class="image-product-card mt-3 mb-2" />
+                        </div>
+                        <div class="product-card-text-container text-center mb-3">
+                            <p class="product-card-product-name">Herbal soap 2</p>
+                            <p class="product-card-price-1"> <span class="product-card-price-2 mr-1">Rs.67</span> Rs.48</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mb-3 d-none d-md-block">
+                    <div class=" product-card-container shadow-lg">
+                        <div class="text-center">
+                            <img src="https://img.freepik.com/free-photo/top-view-lovely-arrangement-plants-with-properties_23-2148799475.jpg?t=st=1720806315~exp=1720809915~hmac=35d5a2f9d15657caabc281eaf07f7a39bf731a2fa4d48fe86fce45fe9b546725&w=360" class="image-product-card mt-3 mb-2" />
+                        </div>
+                        <div class="product-card-text-container text-center mb-3">
+                            <p class="product-card-product-name">Herbal soap 2</p>
+                            <p class="product-card-price-1"> <span class="product-card-price-2 mr-1">Rs.67</span> Rs.48</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="row pt-3">
+
+                <div class="col-6 col-md-4 col-lg-3 mb-3">
+                    <div class=" product-card-container shadow-lg">
+                        <div class="text-center">
+                            <img src="https://img.freepik.com/free-photo/top-view-lovely-arrangement-plants-with-properties_23-2148799475.jpg?t=st=1720806315~exp=1720809915~hmac=35d5a2f9d15657caabc281eaf07f7a39bf731a2fa4d48fe86fce45fe9b546725&w=360" class="image-product-card mt-3 mb-2" />
+                        </div>
+                        <div class="product-card-text-container text-center mb-3">
+                            <p class="product-card-product-name">Herbal soap 1</p>
+                            <p class="product-card-price-1"> <span class="product-card-price-2 mr-1">Rs.70</span> Rs.50</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mb-3">
+                    <div class=" product-card-container shadow-lg">
+                        <div class="text-center">
+                            <img src="https://img.freepik.com/free-photo/top-view-lovely-arrangement-plants-with-properties_23-2148799475.jpg?t=st=1720806315~exp=1720809915~hmac=35d5a2f9d15657caabc281eaf07f7a39bf731a2fa4d48fe86fce45fe9b546725&w=360" class="image-product-card mt-3 mb-2" />
+                        </div>
+                        <div class="product-card-text-container text-center mb-3">
+                            <p class="product-card-product-name">Herbal soap 2</p>
+                            <p class="product-card-price-1"> <span class="product-card-price-2 mr-1">Rs.67</span> Rs.48</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mb-3 d-none d-lg-block">
+                    <div class=" product-card-container shadow-lg">
+                        <div class="text-center">
+                            <img src="https://img.freepik.com/free-photo/top-view-lovely-arrangement-plants-with-properties_23-2148799475.jpg?t=st=1720806315~exp=1720809915~hmac=35d5a2f9d15657caabc281eaf07f7a39bf731a2fa4d48fe86fce45fe9b546725&w=360" class="image-product-card mt-3 mb-2" />
+                        </div>
+                        <div class="product-card-text-container text-center mb-3">
+                            <p class="product-card-product-name">Herbal soap 2</p>
+                            <p class="product-card-price-1"> <span class="product-card-price-2 mr-1">Rs.67</span> Rs.48</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mb-3 d-none d-md-block">
+                    <div class=" product-card-container shadow-lg">
+                        <div class="text-center">
+                            <img src="https://img.freepik.com/free-photo/top-view-lovely-arrangement-plants-with-properties_23-2148799475.jpg?t=st=1720806315~exp=1720809915~hmac=35d5a2f9d15657caabc281eaf07f7a39bf731a2fa4d48fe86fce45fe9b546725&w=360" class="image-product-card mt-3 mb-2" />
+                        </div>
+                        <div class="product-card-text-container text-center mb-3">
+                            <p class="product-card-product-name">Herbal soap 2</p>
+                            <p class="product-card-price-1"> <span class="product-card-price-2 mr-1">Rs.67</span> Rs.48</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>

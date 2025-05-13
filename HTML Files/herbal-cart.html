@@ -1,0 +1,487 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="herbal-website-1.css/herbal-cart.css">
+    <script src="script/script-1.js"></script>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row pt-3">
+            <div class="col-12 mb-3" onclick="home()">
+                <h1 class="home-products-heading home-products-heading-2 mb-4"><span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-left-circle-fill mr-3" viewBox="0 0 16 16">
+                            <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
+                        </svg></span>Cart</h1>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 mb-3" id="item">
+                <div class="product-card-container shadow-lg d-flex flex-row">
+                    <div class=" ml-2 mr-1 mt-1" onclick="cart1()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#bf131f" class="bi bi-x-circle-fill remove-icon-cart" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293z" />
+                        </svg>
+                    </div>
+                    <div class="ml-2 text-center">
+                        <img src="https://img.freepik.com/free-photo/top-view-lovely-arrangement-plants-with-properties_23-2148799475.jpg?t=st=1720806315~exp=1720809915~hmac=35d5a2f9d15657caabc281eaf07f7a39bf731a2fa4d48fe86fce45fe9b546725&w=360" class="image-product-card image-product-card-cart mt-3 mb-2" />
+                    </div>
+                    <div class="product-card-text-container text-center mb-3 d-flex flex-column justify-content-center mr-4">
+
+
+
+                        <p class="product-card-product-name">name 1</p>
+                        <p class="product-card-price-1 product-price-cart" id="rupee-1">Rs.50</p>
+
+
+
+                    </div>
+                    <div class="ml-auto mr-4 d-flex flex-column justify-content-center">
+                        <div>
+                            <p class="herbal-cart-quantity" id="quantity">Quantity:1</p>
+                        </div>
+                        <div>
+                            <button class="quantity-button-cart" onclick="minus()">-</button>
+                            <button class="quantity-button-cart" onclick="plus()">+</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 mb-3" id="items">
+                <div class="product-card-container shadow-lg d-flex flex-row">
+                    <div class=" ml-2 mr-1 mt-1" onclick="cart2()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#bf131f" class="bi bi-x-circle-fill remove-icon-cart" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293z" />
+                        </svg>
+                    </div>
+                    <div class="ml-2 text-center">
+                        <img src="https://img.freepik.com/free-photo/top-view-lovely-arrangement-plants-with-properties_23-2148799475.jpg?t=st=1720806315~exp=1720809915~hmac=35d5a2f9d15657caabc281eaf07f7a39bf731a2fa4d48fe86fce45fe9b546725&w=360" class="image-product-card image-product-card-cart mt-3 mb-2" />
+                    </div>
+                    <div class="product-card-text-container text-center mb-3 d-flex flex-column justify-content-center mr-4">
+
+
+
+                        <p class="product-card-product-name">name 2</p>
+                        <p class="product-card-price-1 product-price-cart" id="rupees-1">Rs.50</p>
+
+
+
+                    </div>
+                    <div class="ml-auto mr-4 d-flex flex-column justify-content-center">
+                        <div>
+                            <p class="herbal-cart-quantity" id="quantitys">Quantity:1</p>
+                        </div>
+                        <div>
+                            <button class="quantity-button-cart" onclick="minuss()">-</button>
+                            <button class="quantity-button-cart" onclick="pluss()">+</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 mb-3" id="item1">
+                <div class="product-card-container shadow-lg d-flex flex-row">
+                    <div class=" ml-2 mr-1 mt-1" onclick="cart1()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#bf131f" class="bi bi-x-circle-fill remove-icon-cart" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293z" />
+                        </svg>
+                    </div>
+                    <div class="ml-2 text-center">
+                        <img src="herbal-web-images-1/h1.png" class="image-product-card image-product-card-cart mt-3 mb-2" />
+                    </div>
+                    <div class="product-card-text-container text-center mb-3 d-flex flex-column justify-content-center mr-4">
+
+
+
+                        <p class="product-card-product-name">product 1</p>
+                        <p class="product-card-price-1 product-price-cart" id="rupee-1">Rs.50</p>
+
+
+
+                    </div>
+                    <div class="ml-auto mr-4 d-flex flex-column justify-content-center">
+                        <div>
+                            <p class="herbal-cart-quantity" id="quantity">Quantity:1</p>
+                        </div>
+                        <div>
+                            <button class="quantity-button-cart" onclick="minus()">-</button>
+                            <button class="quantity-button-cart" onclick="plus()">+</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 mb-3" id="item2">
+                <div class="product-card-container shadow-lg d-flex flex-row">
+                    <div class=" ml-2 mr-1 mt-1" onclick="cart1()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#bf131f" class="bi bi-x-circle-fill remove-icon-cart" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293z" />
+                        </svg>
+                    </div>
+                    <div class="ml-2 text-center">
+                        <img src="herbal-web-images-1/h2.png" class="image-product-card image-product-card-cart mt-3 mb-2" />
+                    </div>
+                    <div class="product-card-text-container text-center mb-3 d-flex flex-column justify-content-center mr-4">
+
+
+
+                        <p class="product-card-product-name">product 2</p>
+                        <p class="product-card-price-1 product-price-cart" id="rupee-1">Rs.50</p>
+
+
+
+                    </div>
+                    <div class="ml-auto mr-4 d-flex flex-column justify-content-center">
+                        <div>
+                            <p class="herbal-cart-quantity" id="quantity">Quantity:1</p>
+                        </div>
+                        <div>
+                            <button class="quantity-button-cart" onclick="minus()">-</button>
+                            <button class="quantity-button-cart" onclick="plus()">+</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 mb-3" id="item3">
+                <div class="product-card-container shadow-lg d-flex flex-row">
+                    <div class=" ml-2 mr-1 mt-1" onclick="cart1()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#bf131f" class="bi bi-x-circle-fill remove-icon-cart" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293z" />
+                        </svg>
+                    </div>
+                    <div class="ml-2 text-center">
+                        <img src="herbal-web-images-1/h3.png" class="image-product-card image-product-card-cart mt-3 mb-2" />
+                    </div>
+                    <div class="product-card-text-container text-center mb-3 d-flex flex-column justify-content-center mr-4">
+
+
+
+                        <p class="product-card-product-name">product 3</p>
+                        <p class="product-card-price-1 product-price-cart" id="rupee-1">Rs.50</p>
+
+
+
+                    </div>
+                    <div class="ml-auto mr-4 d-flex flex-column justify-content-center">
+                        <div>
+                            <p class="herbal-cart-quantity" id="quantity">Quantity:1</p>
+                        </div>
+                        <div>
+                            <button class="quantity-button-cart" onclick="minus()">-</button>
+                            <button class="quantity-button-cart" onclick="plus()">+</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>    
+                <div class="col-12 col-md-4 col-lg-4 mb-3" id="item4">
+                    <div class="product-card-container shadow-lg d-flex flex-row">
+                        <div class=" ml-2 mr-1 mt-1" onclick="cart1()">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#bf131f" class="bi bi-x-circle-fill remove-icon-cart" viewBox="0 0 16 16">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293z" />
+                            </svg>
+                        </div>
+                        <div class="ml-2 text-center">
+                            <img src="herbal-web-images-1/h4.png" class="image-product-card image-product-card-cart mt-3 mb-2" />
+                        </div>
+                        <div class="product-card-text-container text-center mb-3 d-flex flex-column justify-content-center mr-4">
+    
+    
+    
+                            <p class="product-card-product-name">product 4</p>
+                            <p class="product-card-price-1 product-price-cart" id="rupee-1">Rs.50</p>
+    
+    
+    
+                        </div>
+                        <div class="ml-auto mr-4 d-flex flex-column justify-content-center">
+                            <div>
+                                <p class="herbal-cart-quantity" id="quantity">Quantity:1</p>
+                            </div>
+                            <div>
+                                <button class="quantity-button-cart" onclick="minus()">-</button>
+                                <button class="quantity-button-cart" onclick="plus()">+</button>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 mb-3" id="item5">
+                    <div class="product-card-container shadow-lg d-flex flex-row">
+                        <div class=" ml-2 mr-1 mt-1" onclick="cart1()">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#bf131f" class="bi bi-x-circle-fill remove-icon-cart" viewBox="0 0 16 16">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293z" />
+                            </svg>
+                        </div>
+                        <div class="ml-2 text-center">
+                            <img src="herbal-web-images-1/h5.png" class="image-product-card image-product-card-cart mt-3 mb-2" />
+                        </div>
+                        <div class="product-card-text-container text-center mb-3 d-flex flex-column justify-content-center mr-4">
+    
+    
+    
+                            <p class="product-card-product-name">product 5</p>
+                            <p class="product-card-price-1 product-price-cart" id="rupee-1">Rs.50</p>
+    
+    
+    
+                        </div>
+                        <div class="ml-auto mr-4 d-flex flex-column justify-content-center">
+                            <div>
+                                <p class="herbal-cart-quantity" id="quantity">Quantity:1</p>
+                            </div>
+                            <div>
+                                <button class="quantity-button-cart" onclick="minus()">-</button>
+                                <button class="quantity-button-cart" onclick="plus()">+</button>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 mb-3" id="item6">
+                    <div class="product-card-container shadow-lg d-flex flex-row">
+                        <div class=" ml-2 mr-1 mt-1" onclick="cart1()">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#bf131f" class="bi bi-x-circle-fill remove-icon-cart" viewBox="0 0 16 16">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293z" />
+                            </svg>
+                        </div>
+                        <div class="ml-2 text-center">
+                            <img src="herbal-web-images-1/h6.png" class="image-product-card image-product-card-cart mt-3 mb-2" />
+                        </div>
+                        <div class="product-card-text-container text-center mb-3 d-flex flex-column justify-content-center mr-4">
+    
+    
+    
+                            <p class="product-card-product-name">product 6</p>
+                            <p class="product-card-price-1 product-price-cart" id="rupee-1">Rs.50</p>
+    
+    
+    
+                        </div>
+                        <div class="ml-auto mr-4 d-flex flex-column justify-content-center">
+                            <div>
+                                <p class="herbal-cart-quantity" id="quantity">Quantity:1</p>
+                            </div>
+                            <div>
+                                <button class="quantity-button-cart" onclick="minus()">-</button>
+                                <button class="quantity-button-cart" onclick="plus()">+</button>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 mb-3" id="item7">
+                    <div class="product-card-container shadow-lg d-flex flex-row">
+                        <div class=" ml-2 mr-1 mt-1" onclick="cart1()">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#bf131f" class="bi bi-x-circle-fill remove-icon-cart" viewBox="0 0 16 16">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293z" />
+                            </svg>
+                        </div>
+                        <div class="ml-2 text-center">
+                            <img src="herbal-web-images-1/h7.png" class="image-product-card image-product-card-cart mt-3 mb-2" />
+                        </div>
+                        <div class="product-card-text-container text-center mb-3 d-flex flex-column justify-content-center mr-4">
+    
+    
+    
+                            <p class="product-card-product-name">product 7</p>
+                            <p class="product-card-price-1 product-price-cart" id="rupee-1">Rs.50</p>
+    
+    
+    
+                        </div>
+                        <div class="ml-auto mr-4 d-flex flex-column justify-content-center">
+                            <div>
+                                <p class="herbal-cart-quantity" id="quantity">Quantity:1</p>
+                            </div>
+                            <div>
+                                <button class="quantity-button-cart" onclick="minus()">-</button>
+                                <button class="quantity-button-cart" onclick="plus()">+</button>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 mb-3" id="item8">
+                    <div class="product-card-container shadow-lg d-flex flex-row">
+                        <div class=" ml-2 mr-1 mt-1" onclick="cart1()">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#bf131f" class="bi bi-x-circle-fill remove-icon-cart" viewBox="0 0 16 16">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293z" />
+                            </svg>
+                        </div>
+                        <div class="ml-2 text-center">
+                            <img src="herbal-web-images-1/h8.png" class="image-product-card image-product-card-cart mt-3 mb-2" />
+                        </div>
+                        <div class="product-card-text-container text-center mb-3 d-flex flex-column justify-content-center mr-4">
+    
+    
+    
+                            <p class="product-card-product-name">product 8</p>
+                            <p class="product-card-price-1 product-price-cart" id="rupee-1">Rs.50</p>
+    
+    
+    
+                        </div>
+                        <div class="ml-auto mr-4 d-flex flex-column justify-content-center">
+                            <div>
+                                <p class="herbal-cart-quantity" id="quantity">Quantity:1</p>
+                            </div>
+                            <div>
+                                <button class="quantity-button-cart" onclick="minus()">-</button>
+                                <button class="quantity-button-cart" onclick="plus()">+</button>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 mb-3" id="item9">
+                    <div class="product-card-container shadow-lg d-flex flex-row">
+                        <div class=" ml-2 mr-1 mt-1" onclick="cart1()">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#bf131f" class="bi bi-x-circle-fill remove-icon-cart" viewBox="0 0 16 16">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293z" />
+                            </svg>
+                        </div>
+                        <div class="ml-2 text-center">
+                            <img src="herbal-web-images-1/h1.png" class="image-product-card image-product-card-cart mt-3 mb-2" />
+                        </div>
+                        <div class="product-card-text-container text-center mb-3 d-flex flex-column justify-content-center mr-4">
+    
+    
+    
+                            <p class="product-card-product-name">product 9</p>
+                            <p class="product-card-price-1 product-price-cart" id="rupee-1">Rs.50</p>
+    
+    
+    
+                        </div>
+                        <div class="ml-auto mr-4 d-flex flex-column justify-content-center">
+                            <div>
+                                <p class="herbal-cart-quantity" id="quantity">Quantity:1</p>
+                            </div>
+                            <div>
+                                <button class="quantity-button-cart" onclick="minus()">-</button>
+                                <button class="quantity-button-cart" onclick="plus()">+</button>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 mb-3" id="item10">
+                    <div class="product-card-container shadow-lg d-flex flex-row">
+                        <div class=" ml-2 mr-1 mt-1" onclick="cart1()">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#bf131f" class="bi bi-x-circle-fill remove-icon-cart" viewBox="0 0 16 16">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293z" />
+                            </svg>
+                        </div>
+                        <div class="ml-2 text-center">
+                            <img src="herbal-web-images-1/h10.png" class="image-product-card image-product-card-cart mt-3 mb-2" />
+                        </div>
+                        <div class="product-card-text-container text-center mb-3 d-flex flex-column justify-content-center mr-4">
+    
+    
+    
+                            <p class="product-card-product-name">product 10</p>
+                            <p class="product-card-price-1 product-price-cart" id="rupee-1">Rs.50</p>
+    
+    
+    
+                        </div>
+                        <div class="ml-auto mr-4 d-flex flex-column justify-content-center">
+                            <div>
+                                <p class="herbal-cart-quantity" id="quantity">Quantity:1</p>
+                            </div>
+                            <div>
+                                <button class="quantity-button-cart" onclick="minus()">-</button>
+                                <button class="quantity-button-cart" onclick="plus()">+</button>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 mb-3" id="item11">
+                    <div class="product-card-container shadow-lg d-flex flex-row">
+                        <div class=" ml-2 mr-1 mt-1" onclick="cart1()">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#bf131f" class="bi bi-x-circle-fill remove-icon-cart" viewBox="0 0 16 16">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293z" />
+                            </svg>
+                        </div>
+                        <div class="ml-2 text-center">
+                            <img src="herbal-web-images-1/h11.png" class="image-product-card image-product-card-cart mt-3 mb-2" />
+                        </div>
+                        <div class="product-card-text-container text-center mb-3 d-flex flex-column justify-content-center mr-4">
+    
+    
+    
+                            <p class="product-card-product-name">product 11</p>
+                            <p class="product-card-price-1 product-price-cart" id="rupee-1">Rs.50</p>
+    
+    
+    
+                        </div>
+                        <div class="ml-auto mr-4 d-flex flex-column justify-content-center">
+                            <div>
+                                <p class="herbal-cart-quantity" id="quantity">Quantity:1</p>
+                            </div>
+                            <div>
+                                <button class="quantity-button-cart" onclick="minus()">-</button>
+                                <button class="quantity-button-cart" onclick="plus()">+</button>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 mb-3" id="item12">
+                    <div class="product-card-container shadow-lg d-flex flex-row">
+                        <div class=" ml-2 mr-1 mt-1" onclick="cart1()">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#bf131f" class="bi bi-x-circle-fill remove-icon-cart" viewBox="0 0 16 16">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293z" />
+                            </svg>
+                        </div>
+                        <div class="ml-2 text-center">
+                            <img src="herbal-web-images-1/h12.png" class="image-product-card image-product-card-cart mt-3 mb-2" />
+                        </div>
+                        <div class="product-card-text-container text-center mb-3 d-flex flex-column justify-content-center mr-4">
+    
+    
+    
+                            <p class="product-card-product-name">product 12</p>
+                            <p class="product-card-price-1 product-price-cart" id="rupee-1">Rs.50</p>
+    
+    
+    
+                        </div>
+                        <div class="ml-auto mr-4 d-flex flex-column justify-content-center">
+                            <div>
+                                <p class="herbal-cart-quantity" id="quantity">Quantity:1</p>
+                            </div>
+                            <div>
+                                <button class="quantity-button-cart" onclick="minus()">-</button>
+                                <button class="quantity-button-cart" onclick="plus()">+</button>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            
+            <div class="col-12 d-flex flex-column justify-content-end">
+                <div class="ml-auto mt-4">
+                    <button class="buy-all-button-cart" onclick="buyAll()">Buy all</button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
