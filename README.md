@@ -1,1 +1,1 @@
-# herbal-products-website-front-end
+#I independently designed the UI and developed the complete front-end using HTML and CSS for a business client who needed a website to sell products online. This was my first projects and I have done many mistakes and learnt so many things from it
