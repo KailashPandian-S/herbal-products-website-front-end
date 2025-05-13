@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.more-products-bg {
+    background-color: #e3e3c8;
+    height: 100%;
+}
+
+
+.home-products-heading {
+    font-size: 24px;
+    font-family: "Roboto";
+    font-weight: 600;
+    color: #5c3005;
+    padding-top: 30px;
+}
+
+.product-card-container {
+    background-color: white;
+    border-radius: 5px;
+    filter: brightness(100%);
+    transition: filter 0.5s;
+}
+
+.product-card-container:hover {
+    filter: brightness(80%);
+}
+
+.image-product-card {
+    height: 130px;
+    width: 110px;
+    border-radius: 5px;
+
+}
+
+
+.product-card-text-container {
+    font-family: "Roboto";
+    font-size: 14px;
+    margin-top: 5px;
+    font-weight: 600;
+    color: black;
+    padding-left: 10px;
+    padding-bottom: 2px;
+}
+
+.product-card-price-1 {
+    font-size: 13px;
+    color: #0071c2;
+    font-family: "Roboto";
+    margin-top: -10px;
+
+}
+
+.product-card-price-2 {
+    font-size: 13px;
+    color: #b3b0ad;
+    font-family: "Roboto";
+    margin-top: -10px;
+    text-decoration: line-through;
+    font-weight: lighter;
+}
+
+
+.view-more-home {
+    font-size: 14px;
+    font-family: "Roboto";
+
+    color: #3d1607;
+    padding-top: 8px;
+    margin-right: 10px;
+    font-weight: 600;
+    transition: font-size 1s;
+}
+
+.view-more-home:hover {
+    font-size: 16px;
+}
+
+.home-products-heading-2 {
+    padding-top: 10px;
+}

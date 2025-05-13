@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.carousel-item-1 {
+    height: 40vh;
+    background-image: url("C:/Users/kaila/Desktop/herbal-website-1/herbal-web-images-1/herbal-home-carousel-1.png");
+    background-size: cover;
+}
+
+.carousel-item-2 {
+    background-image: url("C:/Users/kaila/Desktop/herbal-website-1/herbal-web-images-1/herbal-home-carousel-2.png");
+
+}
+
+.carousel-item-3 {
+    background-image: url("C:/Users/kaila/Desktop/herbal-website-1/herbal-web-images-1/herbal-home-carousel-3.png");
+}
+
+#navitem1 {
+
+    font-family: "Roboto";
+    font-weight: 500;
+
+    font-size: 16px;
+}
+
+#navitem2 {
+    font-family: "Roboto";
+    font-weight: 500;
+
+    font-size: 16px;
+
+}
+
+#navitem3 {
+    font-family: "Roboto";
+    font-weight: 500;
+
+    font-size: 16px;
+
+}
+
+#navitem4 {
+    font-family: "Roboto";
+    font-weight: 500;
+
+    font-size: 16px;
+}
+
+
+
+.home-bg {
+    background-color: #e3e3c8;
+}
+
+
+
+.carousel-height {
+    height: 30vh;
+}
+
+
+.home-products-heading {
+    font-size: 24px;
+    font-family: "Roboto";
+    font-weight: 600;
+    color: #5c3005;
+    padding-top: 30px;
+}
+
+.product-card-container {
+    background-color: white;
+    border-radius: 5px;
+    filter: brightness(100%);
+    transition: filter 0.5s;
+}
+
+.product-card-container:hover {
+    filter: brightness(80%);
+}
+
+.image-product-card {
+    height: 130px;
+    width: 110px;
+    border-radius: 5px;
+    transition: height width 1s;
+
+}
+
+.image-product-card:hover{
+    height:140px;
+    width:120px;
+}
+
+
+
+.product-card-text-container {
+    font-family: "Roboto";
+    font-size: 14px;
+    margin-top: 5px;
+    font-weight: 600;
+    color: black;
+    padding-left: 10px;
+    padding-bottom: 2px;
+}
+
+.product-card-price-1 {
+    font-size: 13px;
+    color: #0071c2;
+    font-family: "Roboto";
+    margin-top: -10px;
+
+}
+
+.product-card-price-2 {
+    font-size: 13px;
+    color: #b3b0ad;
+    font-family: "Roboto";
+    margin-top: -10px;
+    text-decoration: line-through;
+    font-weight: lighter;
+}
+
+
+.view-more-home {
+    font-size: 14px;
+    font-family: "Roboto";
+
+    color: #3d1607;
+    padding-top: 8px;
+    margin-right: 10px;
+    font-weight: 600;
+    transition: font-size 1s;
+}
+
+.view-more-home:hover {
+    font-size: 16px;
+}
+
+.home-products-heading-2 {
+    padding-top: 10px;
+}
+
+
+.categories-animation-home {
+    background-color: #475e41;
+    height: 250px;
+    animation-name: viewcategoriesanime;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+.button-view-categories {
+
+    font-size: 25px;
+    font-family: "Serif";
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: white;
+
+
+    animation-name: viewcategoriesbutton;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes viewcategoriesanime {
+    0% {
+        background-color: #34522b;
+    }
+
+    25% {
+        background-color: #446b39;
+    }
+
+    50% {
+        background-color: #538745;
+    }
+
+    75% {
+        background-color: #446b39;
+    }
+
+    100% {
+        background-color: #34522b;
+    }
+
+
+}
+
+@keyframes viewcategoriesbutton {
+    0% {
+        filter: brightness(150%);
+    }
+
+    25% {
+        filter: brightness(100%);
+    }
+
+    50% {
+        filter: brightness(140%);
+
+        font-size: 28px;
+    }
+
+    75% {
+        filter: brightness(100%);
+    }
+
+    100% {
+        filter: brightness(150%);
+
+    }
+}
+
+
+.catogories-container-1 {
+    background-image: url("C:/Users/kaila/Desktop/herbal-website-1/herbal-web-images-1/categories-image-1.png");
+    background-size: cover;
+    height: 20vh;
+
+    border-radius: 10px;
+    font-family: "Roboto";
+    filter: opacity(95%);
+    animation: catcard 3s;
+    transition: height 1s;
+}
+
+.catogories-container-1:hover {
+    height: 22vh;
+}
+
+.categories-container-text {
+    color: #faf5eb;
+
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 5%;
+    filter: brightness(200%) opacity(100%);
+    transition: margin-left 2s;
+
+}
+
+.categories-container-text:hover {
+    margin-left: 10%;
+}
+
+
+.section-category {
+    background-color: #e3e3c8;
+    height: 118vh;
+}
+
+.category-heading {
+    font-size: 30px;
+    font-family: "Roboto";
+    font-weight: 600;
+    color: #5c3005;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.catogories-container-2 {
+    background-image: url("C:/Users/kaila/Desktop/herbal-website-1/herbal-web-images-1/categories-image-2.png");
+    animation: catcard2 3s;
+
+}
+
+.catogories-container-3 {
+    background-image: url("C:/Users/kaila/Desktop/herbal-website-1/herbal-web-images-1/categories-image-3.png");
+    animation: catcard3 3s;
+
+}
+
+.catogories-container-4 {
+    background-image: url("C:/Users/kaila/Desktop/herbal-website-1/herbal-web-images-1/categories-image-4.png");
+    animation: catcard4 3s;
+
+
+}
+
+.follow-us-section {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.follow-us-heading {
+    font-size: 25px;
+    color: #020300;
+    font-family: "Roboto";
+    padding-top: 20px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.follow-us-icon-container {
+    background-color: #41470b;
+    height: 43px;
+    width: 43px;
+    border-radius: 60px;
+    padding-top: 13px;
+}
+
+
+
+.contact-section {
+    background-color: #2c3008;
+    height: 200px;
+    text-align: center;
+    padding: 30px;
+    padding-top: px;
+    color: #ffffff;
+}
+
+.footer-section-mail-id {
+    color: #d5d6c7;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.footer-section-address {
+    color: #d5d6c7;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+.footer-ph-no {
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+
+.designed-by-section {
+    background-color: #1c1c19;
+    height: 20px;
+}
+
+
+.designed-by-text {
+    font-family: "Roboto";
+    font-size: 8px;
+    color: #61615a;
+    padding: 4px;
+    text-align: center;
+}
+
+
+@keyframes catcard {
+    0% {
+        margin-left: -700px;
+        margin-right: 700px;
+        opacity: 0%;
+    }
+
+    20% {
+        opacity: 100%;
+        margin-left: -700px;
+        margin-right: 700px;
+    }
+}
+
+@keyframes catcard2 {
+    0% {
+        margin-left: -800px;
+        margin-right: 800px;
+    }
+}
+
+@keyframes catcard3 {
+    0% {
+        margin-left: -900px;
+        margin-right: 900px;
+    }
+}
+
+@keyframes catcard4 {
+    0% {
+        margin-left: -1000px;
+        margin-right: 1000px;
+    }
+}

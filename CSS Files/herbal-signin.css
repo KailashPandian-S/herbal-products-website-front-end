@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+body{
+    background-image: url("C:/Users/kaila/Desktop/herbal-website-1/herbal-web-images-1/herbal-home-carousel-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    max-height: 100%;
+}
+.forms{
+    border: 2px solid #d3d6db;
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-top: 10%;
+    margin-right: 30%;
+    background-color: whitesmoke;
+    padding-left: 7%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+}
+.email{
+   margin-right: 7%;
+
+}
+.forms h3{
+    padding-left: 30%;
+}
+.forms button{
+    margin-bottom: 20px;
+    margin-left: 33%;
+}
+.forms p{
+    font-size: 13px;
+    margin-left: 29%;
+}
+.remember{
+    color: gray;
+    font-size: 17px;
+}
+
+@media (min-width: 325px) and (max-width: 424px){
+    .forms{
+        border: 2px solid #d3d6db;
+        padding-left: 5px;
+        margin-left: 15%;
+        margin-top: 15%;
+        margin-right: 15%;
+        background-color: whitesmoke;
+        padding-left: 7%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-right: 5%;
+    }
+    .email{
+        margin-left:1%;
+    }
+    .password{
+        margin-left: 1%;
+    }
+    .forms h3{
+        padding-left: 33% !important;
+        font-size: 18px;
+    }
+    .forms button{
+        margin-left: 34% !important;
+    }
+    body{
+        background-color: black;
+    }
+}
+@media (min-width: 425px) and (max-width: 480px){
+    .forms{
+        border: 2px solid #d3d6db;
+        padding-left: 5px;
+        margin-left: 15%;
+        margin-top: 15%;
+        margin-right: 15%;
+        background-color: whitesmoke;
+        padding-left: 7%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-right: 5%;
+    }
+    .email{
+        margin-left:1%;
+    }
+    .password{
+        margin-left: 1%;
+    }
+    .forms h3{
+        padding-left: 30%;
+    }
+    .forms button{
+        margin-left: 35% !important;
+        margin-top: 0%;
+    }
+    body{
+        background-color: black;
+    }
+}
+@media (min-width: 250px) and (max-width: 324px){
+    .forms{
+        border: 2px solid #d3d6db;
+        padding-left: 5px;
+        margin-left: 15%;
+        margin-top: 15%;
+        margin-right: 15%;
+        background-color: whitesmoke;
+        padding-left: 7%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-right: 5%;
+    }
+    .email{
+        margin-left:1%;
+    }
+    .password{
+        margin-left: 1%;
+    }
+    .forms h3{
+        padding-left: 33% !important;
+        font-size: 18px;
+    }
+    .hrefs {
+      margin-right: 10% !important ;
+    }
+    .forms button{
+        margin-left: 34% !important;
+        margin-top: 10px;
+    }
+    body{
+        background-color: black;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px){
+    body{
+        background-color: black;
+    }
+}

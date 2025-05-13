@@ -1,0 +1,324 @@
+
+.catogeries-detailed-section {
+    background-color: #e3e3c8;
+    height: 130vh;
+}
+
+.carousel-item-1 {
+    height: 40vh;
+    background-image: url("https://img.freepik.com/free-photo/retaining-herbs_23-2147985319.jpg?t=st=1720896148~exp=1720899748~hmac=5aab293f41235e8efdd0015611f91b3b20da155f166a298cf71b5754155b4793&w=1060");
+    background-size: cover;
+}
+
+.carousel-item-2 {
+    background-image: url("https://img.freepik.com/free-photo/top-view-herbal-therapy-products_23-2149339722.jpg?t=st=1720896344~exp=1720899944~hmac=77e56d9613a300e18278c9f03a2476377c5b5bcd62aed8c4af332e3edbb9f143&w=1060");
+
+}
+
+.carousel-item-3 {
+    background-image: url("https://img.freepik.com/free-photo/colorful-soaps-white-background_23-2148309922.jpg?t=st=1720896670~exp=1720900270~hmac=efe52c6ed5e638fd5d72d8d161116d610e6b05e1ba40207a9becd80faa705fda&w=1060");
+}
+
+#navitem1 {
+
+    font-family: "Roboto";
+    font-weight: 500;
+
+    font-size: 16px;
+}
+
+#navitem2 {
+    font-family: "Roboto";
+    font-weight: 500;
+
+    font-size: 16px;
+
+}
+
+#navitem3 {
+    font-family: "Roboto";
+    font-weight: 500;
+
+    font-size: 16px;
+
+}
+
+#navitem4 {
+    font-family: "Roboto";
+    font-weight: 500;
+
+    font-size: 16px;
+
+}
+
+
+.home-bg {
+    background-color: #e3e3c8;
+}
+
+
+
+.carousel-height {
+    height: 30vh;
+}
+
+
+.home-products-heading {
+    font-size: 24px;
+    font-family: "Roboto";
+    font-weight: 600;
+    color: #5c3005;
+    padding-top: 30px;
+}
+
+.product-card-container {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.image-product-card {
+    height: 130px;
+    width: 110px;
+    border-radius: 5px;
+
+}
+
+
+.product-card-text-container {
+    font-family: "Roboto";
+    font-size: 14px;
+    margin-top: 5px;
+    font-weight: 600;
+    color: black;
+    padding-left: 10px;
+    padding-bottom: 2px;
+}
+
+.product-card-price-1 {
+    font-size: 13px;
+    color: #0071c2;
+    font-family: "Roboto";
+    margin-top: -10px;
+
+}
+
+.product-card-price-2 {
+    font-size: 13px;
+    color: #b3b0ad;
+    font-family: "Roboto";
+    margin-top: -10px;
+    text-decoration: line-through;
+    font-weight: lighter;
+}
+
+
+.view-more-home {
+    font-size: 14px;
+    font-family: "Roboto";
+
+    color: #3d1607;
+    padding-top: 8px;
+    margin-right: 10px;
+    font-weight: 600;
+    transition: height 2s;
+}
+
+.home-products-heading-2 {
+    padding-top: 10px;
+}
+
+
+.categories-animation-home {
+    background-color: #475e41;
+    animation-name: viewcategoriesanime;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+.button-view-categories {
+
+    font-size: 25px;
+    font-family: "Serif";
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: white;
+
+    animation-name: viewcategoriesbutton;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes viewcategoriesanime {
+    0% {
+        background-color: #34522b;
+    }
+
+    25% {
+        background-color: #446b39;
+    }
+
+    50% {
+        background-color: #538745;
+    }
+
+    75% {
+        background-color: #446b39;
+    }
+
+    100% {
+        background-color: #34522b;
+    }
+
+
+}
+
+@keyframes viewcategoriesbutton {
+    0% {
+        filter: brightness(150%);
+    }
+
+    25% {
+        filter: brightness(100%);
+    }
+
+    50% {
+        filter: brightness(140%);
+
+        font-size: 30px;
+    }
+
+    75% {
+        filter: brightness(100%);
+    }
+
+    100% {
+        filter: brightness(150%);
+
+    }
+}
+
+
+.catogories-container-1 {
+    background-image: url("https://img.freepik.com/free-photo/natural-soap-green-leaves-dark-gray-background_93675-135135.jpg?t=st=1720893679~exp=1720897279~hmac=5c7254b0a56c3f5150713e520a3928d839e89d3c752067fdddaa8403923a56e3&w=1060");
+    background-size: cover;
+    height: 20vh;
+    border-radius: 10px;
+    font-family: "Roboto";
+    filter: opacity(95%);
+
+
+}
+
+.categories-container-text {
+    color: #faf5eb;
+
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 15px;
+    filter: brightness(200%) opacity(100%);
+
+}
+
+
+.section-category {
+    background-color: #e3e3c8;
+    height: 120vh;
+}
+
+.category-heading {
+    font-size: 30px;
+    font-family: "Roboto";
+    font-weight: 600;
+    color: #5c3005;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.catogories-container-2 {
+    background-image: url("https://img.freepik.com/free-photo/herbal-medicine-with-plants-arrangement_23-2149339736.jpg?t=st=1720899263~exp=1720902863~hmac=2cada192d719ca04d261d598c50e2853ad5fc8c7da74ae108c9f508cf3cb75c6&w=1060");
+
+}
+
+.catogories-container-3 {
+    background-image: url("https://img.freepik.com/free-photo/elegant-skin-care-banner-design_23-2149480130.jpg?t=st=1720899436~exp=1720903036~hmac=6b9cffb662dc5d069365016ff846f605bafc36f417c2cfefd3422977ad6c9407&w=1380");
+
+}
+
+.catogories-container-4 {
+    background-image: url("https://img.freepik.com/free-photo/arrangement-natural-various-herbs-high-view_23-2148791497.jpg?t=st=1720899575~exp=1720903175~hmac=4af27856d1809f3ff86bb8b6b67344297fbd71305ac2fc4a4d7da55793aca60b&w=1060");
+}
+
+
+.image-product-card-cart {
+    height: 70px;
+    width: 50px;
+}
+
+.herbal-cart-quantity {
+    font-family: "Roboto";
+    font-size: 10px;
+    font-weight: 600;
+}
+
+
+.product-price-cart {
+    margin-left: -20px;
+
+}
+
+
+.quantity-button-cart {
+    color: white;
+    background-color: #1b0d75;
+    height: 20px;
+    width: 20px;
+    border-radius: 3px;
+    border-style: none;
+    font-weight: bold;
+    padding-bottom: 30px;
+    text-align: center;
+    padding-right: 15px;
+    transition: filter 1s;
+
+}
+
+.quantity-button-cart:hover {
+    filter: brightness(150%);
+}
+
+.remove-icon-cart {
+    filter: brightness(100%);
+    transition: filter 1s;
+}
+
+.remove-icon-cart:hover {
+    filter: brightness(30%);
+}
+
+.buy-all-button-cart {
+
+    height: 40px;
+    width: 230px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    border-style: none;
+    padding-top: 5px;
+    /* Adjusted padding value */
+    padding-bottom: 5px;
+    background-color: #0e3d0e;
+    border-radius: 10px;
+    font-family: "Roboto";
+    margin-bottom: 15px;
+    transition: width 1s, height 1s;
+    /* Transition for width and height */
+}
+
+.buy-all-button-cart:hover {
+    height: 45px;
+    width: 240px;
+    filter: brightness(120%);
+}
